@@ -167,7 +167,7 @@ body {
 .header img {
   width: auto/9;
   height: auto;
-  max-width: 80%;
+  max-width: 20%;
   padding-bottom: 1.5rem;
 }
 /*Logo Animation*/
@@ -240,7 +240,6 @@ body {
 }
 #description {
   font-size: 1.5rem;
-  text-align: center;
   padding: 1rem 0 1rem 0;
   max-width: 600px;
   width: 90%;
@@ -270,6 +269,7 @@ body {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
+/*Aside*/
 #footer {
   width: 100%;
   background: var(--redLive);
@@ -282,16 +282,15 @@ body {
   max-width: 10%;
   display: block;
   margin: 0 auto;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 #uso {
   width: 90%;
   margin: 2rem auto;
-  text-align: center;
   max-width: 1024px;
 }
-#uso h4 {
-  font-size: 28px;
+#uso h3 {
+  font-size: 1.5rem;
   text-align: center;
   font-weight: normal;
   padding: 0 0 1rem 0;
@@ -305,8 +304,11 @@ body {
 #uso-leer nav {
   width: 30%;
 }
-#uso-leer h5 {
-  font-size: 1.3rem;
+#uso-leer nav:last-child {
+  text-align: center;
+}
+#uso-leer h4 {
+  font-size: 1.2rem;
   text-align: center;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -317,13 +319,8 @@ body {
   margin: 0 auto;
 }
 #uso-leer li {
-  line-height: 1.8rem;
+  line-height: 1.5rem;
   list-style: none;
-}
-#g {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 70px;
 }
 /*Arrow Up*/
 .arrow-up {
